@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891245A9211D940E007217D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245A8211D940E007217D3 /* AppDelegate.swift */; };
+		891245AB211D940F007217D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891245AA211D940F007217D3 /* Assets.xcassets */; };
+		891245AE211D940F007217D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 891245AC211D940F007217D3 /* MainMenu.xib */; };
+		891245BA211D940F007217D3 /* SmileyMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245B9211D940F007217D3 /* SmileyMenuTests.swift */; };
+		891245C5211D940F007217D3 /* SmileyMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245C4211D940F007217D3 /* SmileyMenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891245B6211D940F007217D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8912459D211D940E007217D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891245A4211D940E007217D3;
+			remoteInfo = SmileyMenu;
+		};
+		891245C1211D940F007217D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8912459D211D940E007217D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891245A4211D940E007217D3;
+			remoteInfo = SmileyMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891245A5211D940E007217D3 /* SmileyMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileyMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891245A8211D940E007217D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		891245AA211D940F007217D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891245AD211D940F007217D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		891245AF211D940F007217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891245B0211D940F007217D3 /* SmileyMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmileyMenu.entitlements; sourceTree = "<group>"; };
+		891245B5211D940F007217D3 /* SmileyMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891245B9211D940F007217D3 /* SmileyMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyMenuTests.swift; sourceTree = "<group>"; };
+		891245BB211D940F007217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891245C0211D940F007217D3 /* SmileyMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891245C4211D940F007217D3 /* SmileyMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyMenuUITests.swift; sourceTree = "<group>"; };
+		891245C6211D940F007217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891245A2211D940E007217D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891245B2211D940F007217D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891245BD211D940F007217D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8912459C211D940E007217D3 = {
+			isa = PBXGroup;
+			children = (
+				891245A7211D940E007217D3 /* SmileyMenu */,
+				891245B8211D940F007217D3 /* SmileyMenuTests */,
+				891245C3211D940F007217D3 /* SmileyMenuUITests */,
+				891245A6211D940E007217D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891245A6211D940E007217D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891245A5211D940E007217D3 /* SmileyMenu.app */,
+				891245B5211D940F007217D3 /* SmileyMenuTests.xctest */,
+				891245C0211D940F007217D3 /* SmileyMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891245A7211D940E007217D3 /* SmileyMenu */ = {
+			isa = PBXGroup;
+			children = (
+				891245A8211D940E007217D3 /* AppDelegate.swift */,
+				891245AA211D940F007217D3 /* Assets.xcassets */,
+				891245AC211D940F007217D3 /* MainMenu.xib */,
+				891245AF211D940F007217D3 /* Info.plist */,
+				891245B0211D940F007217D3 /* SmileyMenu.entitlements */,
+			);
+			path = SmileyMenu;
+			sourceTree = "<group>";
+		};
+		891245B8211D940F007217D3 /* SmileyMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				891245B9211D940F007217D3 /* SmileyMenuTests.swift */,
+				891245BB211D940F007217D3 /* Info.plist */,
+			);
+			path = SmileyMenuTests;
+			sourceTree = "<group>";
+		};
+		891245C3211D940F007217D3 /* SmileyMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				891245C4211D940F007217D3 /* SmileyMenuUITests.swift */,
+				891245C6211D940F007217D3 /* Info.plist */,
+			);
+			path = SmileyMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891245A4211D940E007217D3 /* SmileyMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891245C9211D940F007217D3 /* Build configuration list for PBXNativeTarget "SmileyMenu" */;
+			buildPhases = (
+				891245A1211D940E007217D3 /* Sources */,
+				891245A2211D940E007217D3 /* Frameworks */,
+				891245A3211D940E007217D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileyMenu;
+			productName = SmileyMenu;
+			productReference = 891245A5211D940E007217D3 /* SmileyMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		891245B4211D940F007217D3 /* SmileyMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891245CC211D940F007217D3 /* Build configuration list for PBXNativeTarget "SmileyMenuTests" */;
+			buildPhases = (
+				891245B1211D940F007217D3 /* Sources */,
+				891245B2211D940F007217D3 /* Frameworks */,
+				891245B3211D940F007217D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891245B7211D940F007217D3 /* PBXTargetDependency */,
+			);
+			name = SmileyMenuTests;
+			productName = SmileyMenuTests;
+			productReference = 891245B5211D940F007217D3 /* SmileyMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		891245BF211D940F007217D3 /* SmileyMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891245CF211D940F007217D3 /* Build configuration list for PBXNativeTarget "SmileyMenuUITests" */;
+			buildPhases = (
+				891245BC211D940F007217D3 /* Sources */,
+				891245BD211D940F007217D3 /* Frameworks */,
+				891245BE211D940F007217D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891245C2211D940F007217D3 /* PBXTargetDependency */,
+			);
+			name = SmileyMenuUITests;
+			productName = SmileyMenuUITests;
+			productReference = 891245C0211D940F007217D3 /* SmileyMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8912459D211D940E007217D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DutchVirtual;
+				TargetAttributes = {
+					891245A4211D940E007217D3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					891245B4211D940F007217D3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 891245A4211D940E007217D3;
+					};
+					891245BF211D940F007217D3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 891245A4211D940E007217D3;
+					};
+				};
+			};
+			buildConfigurationList = 891245A0211D940E007217D3 /* Build configuration list for PBXProject "SmileyMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8912459C211D940E007217D3;
+			productRefGroup = 891245A6211D940E007217D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891245A4211D940E007217D3 /* SmileyMenu */,
+				891245B4211D940F007217D3 /* SmileyMenuTests */,
+				891245BF211D940F007217D3 /* SmileyMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891245A3211D940E007217D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891245AB211D940F007217D3 /* Assets.xcassets in Resources */,
+				891245AE211D940F007217D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891245B3211D940F007217D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891245BE211D940F007217D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891245A1211D940E007217D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891245A9211D940E007217D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891245B1211D940F007217D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891245BA211D940F007217D3 /* SmileyMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891245BC211D940F007217D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891245C5211D940F007217D3 /* SmileyMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891245B7211D940F007217D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891245A4211D940E007217D3 /* SmileyMenu */;
+			targetProxy = 891245B6211D940F007217D3 /* PBXContainerItemProxy */;
+		};
+		891245C2211D940F007217D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891245A4211D940E007217D3 /* SmileyMenu */;
+			targetProxy = 891245C1211D940F007217D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891245AC211D940F007217D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891245AD211D940F007217D3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891245C7211D940F007217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		891245C8211D940F007217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		891245CA211D940F007217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmileyMenu/SmileyMenu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH8GQLL8BR;
+				INFOPLIST_FILE = SmileyMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.SmileyMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		891245CB211D940F007217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmileyMenu/SmileyMenu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH8GQLL8BR;
+				INFOPLIST_FILE = SmileyMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.SmileyMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		891245CD211D940F007217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH8GQLL8BR;
+				INFOPLIST_FILE = SmileyMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.SmileyMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileyMenu.app/Contents/MacOS/SmileyMenu";
+			};
+			name = Debug;
+		};
+		891245CE211D940F007217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH8GQLL8BR;
+				INFOPLIST_FILE = SmileyMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.SmileyMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileyMenu.app/Contents/MacOS/SmileyMenu";
+			};
+			name = Release;
+		};
+		891245D0211D940F007217D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH8GQLL8BR;
+				INFOPLIST_FILE = SmileyMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.SmileyMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SmileyMenu;
+			};
+			name = Debug;
+		};
+		891245D1211D940F007217D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MH8GQLL8BR;
+				INFOPLIST_FILE = SmileyMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.dutchvirtual.SmileyMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = SmileyMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891245A0211D940E007217D3 /* Build configuration list for PBXProject "SmileyMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891245C7211D940F007217D3 /* Debug */,
+				891245C8211D940F007217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891245C9211D940F007217D3 /* Build configuration list for PBXNativeTarget "SmileyMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891245CA211D940F007217D3 /* Debug */,
+				891245CB211D940F007217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891245CC211D940F007217D3 /* Build configuration list for PBXNativeTarget "SmileyMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891245CD211D940F007217D3 /* Debug */,
+				891245CE211D940F007217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891245CF211D940F007217D3 /* Build configuration list for PBXNativeTarget "SmileyMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891245D0211D940F007217D3 /* Debug */,
+				891245D1211D940F007217D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8912459D211D940E007217D3 /* Project object */;
+}
