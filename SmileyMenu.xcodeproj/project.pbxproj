@@ -12,7 +12,7 @@
 		891245AE211D940F007217D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 891245AC211D940F007217D3 /* MainMenu.xib */; };
 		891245BA211D940F007217D3 /* SmileyMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245B9211D940F007217D3 /* SmileyMenuTests.swift */; };
 		891245C5211D940F007217D3 /* SmileyMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245C4211D940F007217D3 /* SmileyMenuUITests.swift */; };
-		891245D5211DEF3B007217D3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245D4211DEF3B007217D3 /* Menu.swift */; };
+		891245D5211DEF3B007217D3 /* MenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245D4211DEF3B007217D3 /* MenuDelegate.swift */; };
 		891245D7211DF242007217D3 /* horizontalSmileys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245D6211DF242007217D3 /* horizontalSmileys.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		891245C0211D940F007217D3 /* SmileyMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		891245C4211D940F007217D3 /* SmileyMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyMenuUITests.swift; sourceTree = "<group>"; };
 		891245C6211D940F007217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		891245D4211DEF3B007217D3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		891245D4211DEF3B007217D3 /* MenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDelegate.swift; sourceTree = "<group>"; };
 		891245D6211DF242007217D3 /* horizontalSmileys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = horizontalSmileys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,9 +98,9 @@
 		891245A7211D940E007217D3 /* SmileyMenu */ = {
 			isa = PBXGroup;
 			children = (
-				891245D6211DF242007217D3 /* horizontalSmileys.swift */,
 				891245A8211D940E007217D3 /* AppDelegate.swift */,
-				891245D4211DEF3B007217D3 /* Menu.swift */,
+				891245D4211DEF3B007217D3 /* MenuDelegate.swift */,
+				891245D6211DF242007217D3 /* horizontalSmileys.swift */,
 				891245AA211D940F007217D3 /* Assets.xcassets */,
 				891245AC211D940F007217D3 /* MainMenu.xib */,
 				891245AF211D940F007217D3 /* Info.plist */,
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891245D5211DEF3B007217D3 /* Menu.swift in Sources */,
+				891245D5211DEF3B007217D3 /* MenuDelegate.swift in Sources */,
 				891245A9211D940E007217D3 /* AppDelegate.swift in Sources */,
 				891245D7211DF242007217D3 /* horizontalSmileys.swift in Sources */,
 			);
