@@ -7,6 +7,10 @@ When you click an entry, it's copied to the clipboard so you can paste it elsewh
 
 # Missing features
 
+In no particular order:
+
+* Make manual pasting unnecessary
+* Correctly escape for stuff like reddit
 * Code cleanup because there's too much in the AppDelegate
 * Preference to start automatically when logging in
 * Parse YAML smileys from https://github.com/leighmcculloch/looks.wtf/
