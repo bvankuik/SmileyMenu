@@ -14,6 +14,8 @@
 		891245C5211D940F007217D3 /* SmileyMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245C4211D940F007217D3 /* SmileyMenuUITests.swift */; };
 		891245D5211DEF3B007217D3 /* MenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245D4211DEF3B007217D3 /* MenuDelegate.swift */; };
 		891245D7211DF242007217D3 /* horizontalSmileys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891245D6211DF242007217D3 /* horizontalSmileys.swift */; };
+		89228906211F051B00849B85 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89228905211F051B00849B85 /* Logging.swift */; };
+		89228908211F083500849B85 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89228907211F083500849B85 /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		891245C6211D940F007217D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891245D4211DEF3B007217D3 /* MenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDelegate.swift; sourceTree = "<group>"; };
 		891245D6211DF242007217D3 /* horizontalSmileys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = horizontalSmileys.swift; sourceTree = "<group>"; };
+		89228905211F051B00849B85 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		89228907211F083500849B85 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				891245A8211D940E007217D3 /* AppDelegate.swift */,
+				89228907211F083500849B85 /* Defaults.swift */,
+				89228905211F051B00849B85 /* Logging.swift */,
 				891245D4211DEF3B007217D3 /* MenuDelegate.swift */,
 				891245D6211DF242007217D3 /* horizontalSmileys.swift */,
 				891245AA211D940F007217D3 /* Assets.xcassets */,
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				891245D5211DEF3B007217D3 /* MenuDelegate.swift in Sources */,
+				89228906211F051B00849B85 /* Logging.swift in Sources */,
+				89228908211F083500849B85 /* Defaults.swift in Sources */,
 				891245A9211D940E007217D3 /* AppDelegate.swift in Sources */,
 				891245D7211DF242007217D3 /* horizontalSmileys.swift in Sources */,
 			);
