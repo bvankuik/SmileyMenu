@@ -12,7 +12,6 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     private let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     private let statusMenu = NSMenu()
-    internal var recentItems: [NSMenuItem] = []
     
     let quitItem = NSMenuItem(title: NSLocalizedString("Quit", comment: "Quit menu item"), action: #selector(NSApp.terminate), keyEquivalent: "q")
     
@@ -25,10 +24,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        Defaults.register()
+//        guard let bundleIdentifier = Bundle.main.bundleIdentifier else {
+//            Log.error("No bundle identifier, exiting")
+//            exit(1)
+//        }
+//
+//        do {
+//            let appsupport = try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+//            let appdir = appsupport.appendingPathComponent(bundleIdentifier, isDirectory: true)
+//            try FileManager.default.createDirectory(at: appdir, withIntermediateDirectories: true, attributes: nil)
+//        } catch {
+//            Log.fault("Couldn't create preferences file, continuing")
+//        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        UserDefaults.standard.synchronize()
     }
 }
